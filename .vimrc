@@ -5,7 +5,6 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-
 map <Space> :
 
 " Specify a directory for plugins
@@ -29,8 +28,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/syntastic'
 
 Plug 'kien/ctrlp.vim'
-
-
 
 " Initialize plugin system
 call plug#end()
