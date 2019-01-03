@@ -25,6 +25,8 @@ Plug 'scrooloose/nerdtree'
 
 Plug 'tpope/vim-fugitive'
 
+Plug 'tpope/vim-rails'
+
 Plug 'scrooloose/syntastic'
 
 Plug 'kien/ctrlp.vim'
