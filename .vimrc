@@ -13,6 +13,9 @@ autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
 
+" Always show status line
+set laststatus=2
+
 map <Space> :
 
 " Specify a directory for plugins
