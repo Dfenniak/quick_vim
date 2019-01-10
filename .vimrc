@@ -16,6 +16,9 @@ autocmd BufWinLeave * call clearmatches()
 " Always show status line
 set laststatus=2
 
+" Spaces > tabs
+set expandtab shiftwidth=2 softtabstop=2 smarttab
+
 map <Space> :
 
 " Ignore some folders and files for CtrlP indexing
