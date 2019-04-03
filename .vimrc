@@ -51,5 +51,9 @@ Plug 'scrooloose/syntastic'
 
 Plug 'kien/ctrlp.vim'
 
+Plug 'pangloss/vim-javascript'
+
+Plug 'mxw/vim-jsx'
+
 " Initialize plugin system
 call plug#end()
